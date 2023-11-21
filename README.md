@@ -2,7 +2,7 @@
 
 # Develop
 
-# Ui - Mean and Stddev - linear-regession
+# Ui - Mean and Stddev - linear-regession - simpson
 
 # Mean
 
