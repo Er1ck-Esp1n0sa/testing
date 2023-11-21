@@ -1,0 +1,18 @@
+<div class="container">
+  <h1>Media y la desviación estándar</h1>
+  <div class="form-group">
+    <label for="numeros">Valores:</label>
+    <input type="text" id="numeros" [(ngModel)]="numeros" />
+  </div>
+
+  <ul id="botones">
+    <button class="btn-primary" (click)="agregarNumeros()">Calcular</button>
+</ul>
+
+<div class="resultados">
+  <h3>Resultados</h3>
+    <div *ngIf="mediaValue !== null"></div>
+      <p>Media: {{ mediaValue }}</p>
+      <p>Desviación Estándar: {{ desviacion }}</p>
+    </div>
+  </div>

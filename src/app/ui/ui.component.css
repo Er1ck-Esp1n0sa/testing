@@ -1,0 +1,55 @@
+.contenedor-fondo {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../../assets/images/Evangelion.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 80px;
+  color: white;
+  text-align: center;
+  font-family: monospace;
+}
+
+#contenedor {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.boton {
+  border-radius: 100px;
+  background-image: linear-gradient(to bottom, #070707, #545454, #0cc0df, #0097b2);
+  color: #fff;
+  border: none;
+  padding: 50px 200px;
+  cursor: pointer;
+}
+
+#botones li {
+  margin: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.contenedor-contacto {
+  border-radius: 100px;
+  background-image: linear-gradient(to bottom, #ffffff, #545454);
+  color: #fff;
+  padding: 20px 20px;
+  float: right;
+}
+
+.contenedor-contacto a {
+  font-size: 20px;
+  font-family: "Roboto";
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+  background-color: #fff;
+}

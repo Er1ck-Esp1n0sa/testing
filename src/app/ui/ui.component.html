@@ -1,0 +1,24 @@
+<div class="contenedor-fondo">
+  <h1>Testing</h1>
+  <nav>
+    <ul id="botones">
+      <li>
+        <a [routerLink]="'/desviacion'" [class.active]="activeLink === '/desviacion'" class="boton">1A</a>
+      </li>
+      <li>
+        <a [routerLink]="'/linear-regression'" [class.active]="activeLink === '/linear-regression'" class="boton">3A</a>
+      </li>
+      <li>
+        <a [routerLink]="'/simpson'" [class.active]="activeLink === '/simpson'" class="boton">5A</a>
+      </li>
+      <li>
+        <a class="contenedor-contacto"
+        href="https://github.com/Er1ck-Esp1n0sa"
+        target="_blank">Contacto</a>
+      </li>
+    </ul>
+  </nav>
+  <div class="main-content">
+    <router-outlet></router-outlet>
+  </div>
+</div>

@@ -1,0 +1,31 @@
+<div class="container">
+    <h1>Regresión Lineal</h1>
+    <div class="diagram">
+      <div class="step">
+        <label for="inputArrayX">Valores X:</label>
+        <input type="text" id="inputArrayX" [(ngModel)]="lista1String" placeholder="Ej: 1, 2, 3" />
+      </div>
+      <div class="step">
+        <label for="inputArrayY">Valores Y:</label>
+        <input type="text" id="inputArrayY" [(ngModel)]="lista2String" placeholder="Ej: 4, 5, 6" />
+      </div>
+    <div class="step">
+      <label for="inputX">Valor a predecir (X):</label>
+    <input type="number" id="inputX" [(ngModel)]="inputX" />
+    </div>
+    <ul id="botones">
+      <li>
+        <button type="button" class="btn-primary" (click)="realizarCalculos()">Calcular</button>
+      </li>
+  </ul>
+  <div class="resultados">
+      <h3>Resultados</h3>
+      <div *ngIf="calculatedY !== null">
+        <p>Valor Y Calculado: {{ calculatedY }}</p>
+        <p>B0: {{ calculate.getB0() }}</p>
+        <p>B1: {{ calculate.getB1() }}</p>
+        <p>Correlación: {{ correlation }}</p>
+      </div>
+  </div>
+</div>
+  
