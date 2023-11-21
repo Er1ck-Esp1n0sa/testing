@@ -9,3 +9,5 @@
 # Stddev
 
 # Linear- Regression
+
+# Simpson
